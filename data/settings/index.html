@@ -1,0 +1,52 @@
+<!DOCTYPE>
+<html>
+<head>
+  <title>Settings</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="wrapper">
+    <h3>Settings</h3>
+
+    <div id="description">
+      <a href="#" id='toggle-help'>Help</a>
+      <div>
+        <p>This extension will work only for pages that listed in rules below.</p>
+        <p>
+          Url pattern must start with a scheme (http/https), which can be substituded
+          with a * sign.
+          <br>
+          Examples: <i>*.stackoverflow.com</i>, <i>*.github.com/search</i>,
+          <i>http://goo.gl/</i>
+        </p>
+        <p>
+          Selector can be any CSS selector that matches input element which has to be focused.
+          Blank value means that extension has to detect input element by itself.
+          <br>
+          Examples: <i>#search input</i>, <i>input.query</i>.
+        </p>
+        <p>
+          More info about extension cofiguration can be found on its
+          <a id='homepage-link' target='_blank'>homepage</a>.
+        </p>
+      </div>
+    </div>
+    
+    <div id="patterns">
+      <table>
+        <thead><tr>
+          <td class="url">Url pattern</td>
+          <td class="selector">Selector (optional)</td>
+        </tr></thead>
+      </table>
+
+      <input id="add-row" type="button" value="Add new rule">
+    </div>
+    
+    <div class="modal buttons">
+      <input id="save" type="button" value="Save">
+      <input id="cancel" type="button" value="Cancel">
+    </div>
+  </div>
+</body>
+</html>

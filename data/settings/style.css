@@ -1,0 +1,17 @@
+#description {
+  margin: 1em 0;
+  font-size: 0.875em;
+  width: 50em;
+}
+
+#description div {
+  display: none;
+}
+
+#patterns {
+  margin-bottom: 2em;
+}
+
+.url, .selector {
+  width: 15em;
+}

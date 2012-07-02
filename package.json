@@ -1,0 +1,17 @@
+{
+    "name": "input-autofocus",
+    "license": "MIT",
+    "author": "Andrii Malyshko",
+    "version": "0.1",
+    "keywords": [
+        "input",
+        "focus",
+        "autofocus",
+        "form"
+    ],
+    "fullName": "Input autofocus",
+    "homepage": "https://github.com/nashbridges/firefox-input-autofocus-addon",
+    "id": "jid1-PNR7CaAxKINHVA",
+    "description": "Sets focus to a first text input element on a page.",
+    "preferences": []
+}
