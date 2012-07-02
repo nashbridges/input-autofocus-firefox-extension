@@ -46,7 +46,7 @@ If you see bare `input`, try to get help from a good-known web designer :)
 
 ## Issues
 
-Use [Github issues](issues) to file a ticket. I hope it will never happen though :)
+Use [Github issues](https://github.com/nashbridges/input-autofocus-firefox-extension/issues) to file a ticket. I hope it will never happen though :)
 
 ## Credits
 
