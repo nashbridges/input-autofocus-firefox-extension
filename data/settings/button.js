@@ -8,8 +8,16 @@ var main = {
 
       // Search for the container of buttons displayed at right of the addon line
       let controlContainer = document.getAnonymousElementByAttribute(item, 'anonid', 'control-container');
-      let prefButton = controlContainer.querySelector(".preferences");
-      prefButton.addEventListener("click", this.onButtonClick.bind(this), false)
+      
+      // Insert our button only once
+      if (controlContainer.querySelectorAll("button.settings").length > 0)
+        break;
+
+      let prefButton = document.createElement("button");
+      prefButton.setAttribute("class", "settings");
+      prefButton.setAttribute("label", "Preferences");
+      prefButton.addEventListener("command", this.onButtonClick.bind(this), false);
+      controlContainer.insertBefore(prefButton, controlContainer.firstChild);
 
       break;
     }
