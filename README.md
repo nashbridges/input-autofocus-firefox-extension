@@ -48,10 +48,6 @@ If you see bare `input`, try to get help from a good-known web designer :)
 
 Use [Github issues](https://github.com/nashbridges/input-autofocus-firefox-extension/issues) to file a ticket. I hope it will never happen though :)
 
-## Credits
-
-Chrome-mode and all Preference button related code is taken from <https://github.com/ochameau/locale-updater>.
-
 ## License
 
 Copyright © 2012 Andrii Malyshko
