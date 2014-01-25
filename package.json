@@ -13,5 +13,12 @@
     "homepage": "https://github.com/nashbridges/firefox-input-autofocus-addon",
     "id": "jid1-PNR7CaAxKINHVA",
     "description": "Sets focus to a first text input element on a page.",
-    "preferences": []
+    "preferences": [
+      {
+        "type": "control",
+        "title": "Configure sites",
+        "label": "open settings",
+        "name": "openSettings"
+      }
+    ]
 }
