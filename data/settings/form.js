@@ -47,14 +47,6 @@ self.port.on('prefs:db:set', function (patterns) {
 });
 
 
-self.port.on('prefs:metadata:set', function (addonName, metadata) {
-  let title = addonName + ' settings';
-  document.title = title;
-
-  document.querySelector('#homepage-link').href = metadata.homepage;
-});
-
-
 var createInputsRow = function (data) {
   if (data == undefined) data = {};
 
