@@ -4,7 +4,7 @@ var table = document.querySelector('table');
 document.querySelector('#save').addEventListener('click', function() {
   let patterns = [],
       rows = table.querySelectorAll('tr');
-  
+
   for (let i=0; i<rows.length; i++) {
     let row = rows[i],
         url = row.querySelector('input.url'),
@@ -28,7 +28,7 @@ document.querySelector('#cancel').addEventListener('click', function() {
 document.querySelector('#add-row').addEventListener('click', function() {
   let row = createInputsRow();
   table.appendChild(row);
-  
+
   row.querySelector('.url').focus();
 }, false);
 
